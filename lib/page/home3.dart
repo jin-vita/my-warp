@@ -14,10 +14,10 @@ class Home3 extends StatelessWidget {
     late ui.Image myImage;
 
     List<Offset> points = [
-      const Offset(0, 50),
-      const Offset(220, 110),
-      const Offset(200, 200),
-      const Offset(50, 200),
+      const Offset(-50, 50),
+      const Offset(250, 100),
+      const Offset(300, 200),
+      const Offset(100, 300),
     ];
 
     Future<ui.Image> loadImageFromAsset(String assetPath) async {

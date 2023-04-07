@@ -19,9 +19,9 @@ class ImageTransformPainter extends CustomPainter {
 
     // Draw points
     paint.color = Colors.red;
-    paint.strokeWidth = 5;
+    paint.strokeWidth = 1;
     for (Offset point in points) {
-      canvas.drawCircle(point, 10, paint);
+      canvas.drawCircle(point, 5, paint);
     }
 
     // Draw transformed image
